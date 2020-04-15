@@ -1,0 +1,13 @@
+# Properties for Jira scripts
+
+# The target download folder for Jira servers.
+JIRA_DOWNLOAD_PATH="/Users/example/server"
+
+# The default JVM debug port for Jira.
+DEFAULT_JVM_DEBUG_PORT=5005
+
+# The default JVM memory size for Jira.
+DEFAULT_JVM_MEMORY=2048
+
+# The default value for JAVA_OPTS for Jira's startup script. Only change it if you know what you're doing.
+DEFAULT_JVM_OPTS="-Xmx${DEFAULT_JVM_MEMORY}m -Xdebug -Xrunjdwp:transport=dt_socket,address=${DEFAULT_JVM_DEBUG_PORT},server=y,suspend=n"

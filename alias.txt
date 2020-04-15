@@ -1,0 +1,6 @@
+alias startJira="~/_scripts/jira/start_jira.sh"
+alias stopJira="~/_scripts/jira/stop_jira.sh"
+alias cleanJira="~/_scripts/jira/clean_jira.sh"
+alias downloadJira="~/_scripts/jira/download_jira.sh"
+alias lsJira="~/_scripts/jira/list_jira.sh"
+alias removeJira="~/_scripts/jira/remove_jira.sh"
